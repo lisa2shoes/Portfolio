@@ -11,7 +11,7 @@ namespace hw13_1_asp
 {
     public class Program
     {
-        public static void Main(string[] args) // у меня вопрос по методам, их тут много, хотелось бы в двух словах по ним пробежаться, что каждый делает 
+        public static void Main(string[] args) 
         {
             CreateHostBuilder(args).Build().Run();
         }
