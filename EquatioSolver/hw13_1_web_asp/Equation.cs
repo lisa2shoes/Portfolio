@@ -12,7 +12,7 @@ namespace hw13_1_web_asp
         {
             if (a == 0)
             {
-                throw new ArgumentException("Коэффициент а не может быть равен нулю.");
+                throw new ArgumentException("'a' can't equal zero.");
             }
 
             A = a;

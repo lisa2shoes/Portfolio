@@ -19,7 +19,7 @@ namespace hw_13_UnitTest
             var result = testEquation.SolveEquation();
             double[] rightAnswer = new double[] { 1, 2 };
             // assert
-            result.Should().BeEquivalentTo(rightAnswer); //Assert.AreEqual(rightAnswer, result); -> работает только на {2, 1} -> баг
+            result.Should().BeEquivalentTo(rightAnswer);
         }
     }
 }
